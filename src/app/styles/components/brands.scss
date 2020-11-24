@@ -1,0 +1,103 @@
+.brands {
+  margin-bottom: 50px;
+
+  &--service {
+    margin-top: 150px;
+
+    @include tablet {
+      margin-top: 0;
+    }
+
+    @include mobile {
+      margin-top: 0;
+    }
+  }
+
+  &__wrap {
+    padding: 0 50px;
+  }
+
+  @include mobile {
+    margin-bottom: 0;
+  }
+
+  &__slider {
+    @include mobile {
+      padding-bottom: 90px;
+    }
+  }
+
+  &__btn {
+
+    @include mobile {
+      top: auto;
+      bottom: 25px;
+    }
+
+
+    &:after {
+
+      @include mobile {
+        width: 22px;
+        height: 34px;
+        background-size: cover;
+      }
+    }
+
+    &--prev {
+
+      @include mobile {
+        left: 30%;
+      }
+
+    }
+
+    &--next {
+      @include mobile {
+        right: 30%;
+      }
+
+    }
+  }
+
+  &__swiper-wrapper {
+    flex-direction: row !important;
+    align-items: center;
+  }
+
+  &__list {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+
+    @include tablet {
+      grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
+    }
+
+    @include mobile {
+      grid-template-columns: repeat(auto-fill, minmax(83px, 1fr));
+      grid-gap: 0;
+    }
+  }
+
+  &__link {
+    display: flex;
+    height: 100%;
+    width: 230px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    @include tablet {
+      width: 155px;
+      height: auto;
+    }
+    @include mobile{
+      width: 83px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

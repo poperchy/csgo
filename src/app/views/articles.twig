@@ -1,0 +1,35 @@
+{% extends 'layout/base.twig' %}
+{% block title %}Техимпорт{% endblock %}
+{% block body %}
+    <section class="hero hero--articles"
+             style="background: url('images/hero-articles.jpg')no-repeat center;  background-size: cover;">
+        <div class="container">
+            <div class="hero__wrap hero__wrap--articles">
+                <div class="hero__content">
+                    <h2 class="hero__title hero__title--articles">Статьи</h2>
+                </div>
+                <div class="hero__search-wrap">
+                    <form action="#">
+                        <label class="hero__search-label" for="site-search">
+                            <input class="hero__search-input" type="search" id="site-search" name="search"
+                                   placeholder="Поиск...">
+                            <button class="hero__search-btn">
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.1448 14.2005C17.2274 12.7221 17.8749 10.9061 17.8749 8.93753C17.8749 4.00955 13.8654 0 8.93744 0C4.00948 0 0 4.00955 0 8.93753C0 13.8655 4.00952 17.8751 8.93748 17.8751C10.9061 17.8751 12.7222 17.2274 14.2005 16.1448L20.0557 22L22 20.0557L16.1448 14.2005ZM8.93748 15.125C5.5255 15.125 2.75001 12.3495 2.75001 8.93753C2.75001 5.52553 5.5255 2.75003 8.93748 2.75003C12.3495 2.75003 15.125 5.52553 15.125 8.93753C15.125 12.3495 12.3494 15.125 8.93748 15.125Z"
+                                          fill="#454545"/>
+                                </svg>
+                                Поиск
+                            </button>
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    {% include 'components/articles-card.twig' %}
+    {% include 'components/pagination.twig' with
+        {
+            mod : 'pagination--articles',
+        }, %}
+{% endblock %}

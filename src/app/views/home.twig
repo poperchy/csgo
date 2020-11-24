@@ -1,0 +1,97 @@
+{% extends 'layout/base.twig' %}
+{% block title %}Техимпорт{% endblock %}
+{% block body %}
+    <section class="hero {{ modHero }}">
+        <div class=" index-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"
+                     style="background: url(../images/hero.jpg) no-repeat center; background-size: cover">
+                    <div class="container">
+                        <h2 class="hero__title {{ modTitle }}">Поставка промышленного инструмента и оборудования на
+                            предприятия РБ.</h2>
+                        <p class="hero__desc {{ modDesc }}">Основными нашими заказчиками являются предприятия,
+                            нацеленные на модернизацию#}
+                            производства и оптимизацию технологического процесса. Наш опыт и компетенция позволяют
+                            решать самые#}
+                            сложные задачи оснащения производства.</p>
+                        <button class="btn hero__btn btn--green {{ modBtn }}">Запрос на оборудование</button>
+                    </div>
+                </div>
+                <div class="swiper-slide"
+                     style="background: url(../images/hero.jpg) no-repeat center; background-size: cover">
+                    <div class="container">
+                        <h2 class="hero__title {{ modTitle }}">Поставка промышленного инструмента и оборудования на
+                            предприятия РБ.</h2>
+                        <p class="hero__desc {{ modDesc }}">Основными нашими заказчиками являются предприятия,
+                            нацеленные на модернизацию#}
+                            производства и оптимизацию технологического процесса. Наш опыт и компетенция позволяют
+                            решать самые#}
+                            сложные задачи оснащения производства.</p>
+                        <button class="btn hero__btn btn--green {{ modBtn }}">Запрос на оборудование</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        {# <div class="hero__wrap"> #}
+        {# <div class="hero__content"> #}
+        {# <h2 class="hero__title {{ modTitle }}">Поставка промышленного инструмента и оборудования на предприятия РБ.</h2> #}
+        {# <p class="hero__desc {{ modDesc }}">Основными нашими заказчиками являются предприятия, нацеленные на модернизацию #}
+        {# производства и оптимизацию технологического процесса. Наш опыт и компетенция позволяют решать самые #}
+        {# сложные задачи оснащения производства.</p> #}
+        {# <button class="btn hero__btn btn--green {{ modBtn }}">Запрос на оборудование</button> #}
+        {# </div> #}
+        {# </div> #}
+
+    </section>
+    <div class="wrap__categories">
+        {% include 'components/about-card.twig' %}
+        {% include 'components/title-block.twig' with
+            {
+                title : 'Категории оборудования',
+            } %}
+        {% include 'components/categories.twig' with
+            {
+                card : [
+                {
+                    desc : 'Промышленный <br> инструмент',
+                    img : '../images/31381.jpg',
+                    link : '#',
+                },
+                {
+                    desc : 'Металообрабатывающее оборудование',
+                    img : '../images/31381.jpg',
+                    link : '#',
+                },
+                {
+                    desc : 'Деревообрабатывающее оборудование',
+                    img : '../images/31381.jpg',
+                    link : '#',
+                },
+                {
+                    desc : 'Технологическое оборудование и инженерные решения',
+                    img : '../images/31381.jpg',
+                    link : '#',
+                },
+                {
+                    desc : 'Сервис и запасные части',
+                    img : '../images/31381.jpg',
+                    link : '#',
+                },
+            ]
+            } %}
+    </div>
+    {% include 'components/about-desc.twig' %}
+    {% include 'components/title-block.twig' with
+        {
+            title : 'Поставляемые бренды',
+        } %}
+    {% include 'components/brands.twig' %}
+    {% include 'components/title-block.twig' with
+        {
+            title : 'Свяжитесь с нами',
+        } %}
+    {% include 'components/сontact-us.twig' %}
+{% endblock %}

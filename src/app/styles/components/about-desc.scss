@@ -1,0 +1,66 @@
+.about-desc {
+  margin-top: 80px;
+  background: url("../images/group29.jpg") no-repeat center;
+  background-size: cover;
+  padding: 150px 0;
+
+  @include tablet {
+    padding: 100px 0;
+  }
+
+  @include mobile {
+    margin-top: 0;
+    padding: 70px 0;
+
+  }
+
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__desc {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.8);
+    max-width: 62%;
+    letter-spacing: 3px;
+
+    @include tablet {
+      max-width: none;
+      width: 100%;
+      font-size: 16px;
+      line-height: 21px;
+    }
+
+    @include mobile {
+      font-size: 14px;
+      line-height: 19px;
+      max-width: none;
+      width: 100%;
+    }
+  }
+
+  &__title {
+    margin-top: 77px;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 66px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.8);
+
+    @include tablet {
+      font-size: 32px;
+      line-height: 42px;
+      margin-top: 40px;
+    }
+    @include mobile {
+      font-size: 24px;
+      line-height: 32px;
+      margin-top: 40px;
+    }
+  }
+}

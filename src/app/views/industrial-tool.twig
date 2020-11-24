@@ -1,0 +1,24 @@
+{% extends 'layout/base.twig' %}
+{% block title %}Техимпорт{% endblock %}
+{% block body %}
+
+    {% include 'components/hero.twig' with
+        {
+            modDesc : 'hero__desc--hide',
+            modTitle : 'hero__title--not-index',
+            modBtn : 'hero__btn--hide',
+            title : 'Промышленый инструмент',
+            modHero : 'hero--industrial',
+        }
+    %}
+
+    {% include 'components/catalog-industrial.twig' %}
+
+    {% include 'components/title-block.twig' with
+        {
+            title : 'Поставляемые бренды',
+        } %}
+    {% include 'components/brands.twig' %}
+
+    {% include 'components/сontact-us.twig'%}
+{% endblock %}

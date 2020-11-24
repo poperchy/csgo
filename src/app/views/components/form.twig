@@ -1,0 +1,30 @@
+<div class="form__wrap" id="callback-form">
+    <h4 class="form__title">Задайте вопрос или кратко опишите ситуацию. <br>
+        Наши специалисты перезвонят Вам и ответят на все вопросы.</h4>
+    <form class="form" action="#" id="form" method="post">
+        <div class="form__input-wrap">
+            <label class="form__label" for="name">
+                <input class="form__input" id="name" type="text" placeholder="Ваше имя">
+            </label>
+            <label class="form__label" for="tel">
+                <input class="form__input" id="tel" type="tel" placeholder="Ваш номер телефона" required>
+            </label>
+            <label class="form__label" for="email">
+                <input class="form__input" id="email" type="email" placeholder="E-mail" required>
+            </label>
+        </div>
+        <div class="form__textinput-wrap">
+            <div class="form__textarea-wrap">
+                 <textarea class="form__textarea" id="textarea" name="textarea" cols="30" rows="10" placeholder="Дополнительная информация
+* (Вы можете указать желаемое время звонка, задать вопрос, прикрепить файл и т.д)"></textarea>
+                <label class="form__label-file" for="file"><span class="form__file-text"></span>
+                    <input class="form__input-file" id="file" type="file" multiple="multiple">
+                </label>
+            </div>
+
+            <div class="form__btn-wrap">
+                <button class="btn btn--green form__btn call" data-fancybox="" data-src="#modal-sent"  type="submit">Отправить</button>
+            </div>
+        </div>
+    </form>
+</div>

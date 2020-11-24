@@ -1,0 +1,53 @@
+@import "options";
+@import "sprites/png-sprite";
+@import "sprites/svg-sprite";
+@import "sprites/svg-sprite-inline";
+
+//Mixins
+@import "mixins/png-sprite";
+@import "mixins/svg-sprite";
+
+@import "mixins/layout";
+@import "fonts/fonts";
+@import "libraries/normalize";
+@import "libraries/swiper-bundle";
+
+@import "layout/common";
+@import "layout/visually-hidden";
+
+@import "components/header";
+@import "components/hero";
+@import "components/about-card";
+@import "components/title-block";
+@import "components/categories";
+@import "components/about-desc";
+@import "components/brands";
+@import "components/form";
+@import "components/contacts-us";
+@import "components/footer";
+@import "components/social-links";
+@import "components/callback";
+@import "components/catalog-industrial";
+@import "components/product";
+@import "components/about-prod";
+@import "components/about-list";
+@import "components/buttons";
+@import "components/about-prod-desc";
+@import "components/video-block";
+@import "components/contacts";
+@import "components/articles";
+@import "components/articles-card";
+@import "components/pagination";
+@import "components/sent";
+@import "components/bread-crumbs";
+@import "components/article";
+@import "components/qoute";
+@import "components/another-product";
+@import "components/service";
+@import "components/not-found";
+@import "components/about-us";
+
+
+
+
+

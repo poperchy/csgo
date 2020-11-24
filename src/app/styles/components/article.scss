@@ -1,0 +1,150 @@
+.article {
+
+  &__cards {
+    margin-bottom: 40px;
+  }
+
+  &__wrap {
+    padding: 70px 0;
+  }
+
+  &__desc-title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+    color: #454545;
+    margin-bottom: 30px;
+  }
+
+  &__card-desc {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+
+    @include mobile {
+
+    }
+  }
+
+  &__cards-wrap {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    @include mobile {
+      justify-content: center;
+    }
+  }
+
+  &__card-item {
+    flex: 1 0 280px;
+
+    @include mobile {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      flex: 1 0 100%;
+      text-align: center;
+    }
+  }
+
+  &__title {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 22px;
+    color: #454545;
+    text-align: center;
+    width: 100%;
+    margin: 75px 0;
+
+    @include tablet {
+      margin: 50px 0;
+    }
+    @include mobile {
+      margin: 50px 0;
+    }
+  }
+
+  &__video {
+    width: 45%;
+
+    @include tablet {
+      width: 90%;
+      align-self: center;
+      min-height: 353px;
+      order: 2;
+      margin-top: 50px;
+    }
+    @include mobile {
+      width: 100%;
+      align-self: center;
+      min-height: 200px;
+      order: 2;
+      margin-top: 50px;
+    }
+  }
+
+  &__img {
+    display: none;
+    width: 50%;
+    height: 100%;
+    margin-left: 50px;
+
+    @include tablet {
+      width: 100%;
+      align-self: center;
+      margin-left: 0;
+      margin-top: 50px;
+    }
+    @include mobile {
+      width: 100%;
+      align-self: center;
+      margin-left: 0;
+      margin-top: 50px;
+    }
+
+    &-show {
+      display: flex;
+    }
+  }
+
+  &__wrap-content {
+    display: flex;
+    justify-content: space-between;
+
+    @include tablet {
+      flex-direction: column;
+    }
+
+    @include mobile {
+      flex-direction: column;
+    }
+  }
+
+  &__desc {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__50 {
+    width: 50%;
+
+    @include tablet {
+      width: 100%;
+    }
+    @include mobile {
+      width: 100%;
+    }
+  }
+}

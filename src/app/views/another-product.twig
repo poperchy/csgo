@@ -1,0 +1,79 @@
+{% extends 'layout/base.twig' %}
+{% block title %}Техимпорт{% endblock %}
+{% block body %}
+    <section class="hero hero--contacts" style="background: url('images/hero-paul.jpg')no-repeat center">
+        <div class="container">
+            <div class="hero__wrap hero__wrap--contacts">
+                <div class="hero__content">
+                    <h2 class="hero__title hero__title--center">Техника циркулярных пил Paul</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        {% include 'components/bread-crumbs.twig' %}
+    </div>
+    {% include 'components/about-prod.twig' with
+        {
+            modImg : 'about-prod__img--paul',
+            img : '../images/product-paul.png',
+            alt : 'Fein',
+            title : 'Файн - сделано в Германии (г.Штутгарт)',
+            preTitle : 'COOO "ТЕХИМПОРТ" -официальный дилер C. & E. FEIN GMBH в Республике Беларусь.',
+            desc : 'Фирма FEIN - ведущий специалист в области профессиональных и сверхнадежных электроинструментов и специальной оснастки для металлообработки, автомобилестроения, а также внутренней отделки в строительстве. Начиная с изобретения электродрели, фирма FEIN вот уже 140 лет создает инновационный и непревзойденный электроинструмент для практических нужд, прекрасно зарекомендовав себя в самых жестких условиях непрерывной эксплуатации в промышленности и быту.
+',
+            href : '#',
+            linkDesc : 'fein.de',
+        } %}
+
+
+    <div class="another-product">
+        <div class="container">
+            <div class="another-product__list">
+                <div class="another-product__item" style="background: url('images/hero-industrial.jpg')no-repeat center; background-size: cover">
+                    <a class="another-product__link" href="#">
+                        <h4 class="another-product__title">Обработка щита</h4>
+                        <div class="another-product__img-wrap ">
+                            <img class="another-product__img another-product--show" src="images/another-product/1.png" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="another-product__item">
+                    <a class="another-product__link" href="#">
+                        <h4 class="another-product__title">Обработка твердой древесины</h4>
+                        <div class="another-product__img-wrap">
+                            <img class="another-product__img" src="images/another-product/2.png" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="another-product__item">
+                    <a class="another-product__link" href="#">
+                        <h4 class="another-product__title">Линии оптимизации ЧПУ</h4>
+                        <div class="another-product__img-wrap">
+                            <img class="another-product__img" src="images/another-product/3.png" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="another-product__item">
+                    <a class="another-product__link" href="#">
+                        <h4 class="another-product__title">Системные решения</h4>
+                        <div class="another-product__img-wrap">
+                            <img class="another-product__img" src="images/another-product/4.png" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {% include 'components/buttons.twig' %}
+
+    {% include 'components/about-prod-desc.twig' %}
+
+    {% include 'components/сontact-us.twig' with
+        {
+            mod : 'contacts-us--fein',
+        }, %}
+{% endblock %}

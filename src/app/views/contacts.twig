@@ -1,0 +1,94 @@
+{% extends 'layout/base.twig' %}
+{% block title %}Техимпорт{% endblock %}
+{% block body %}
+    <section class="hero hero--contacts" style="background: url('images/hero-contacts.jpg')no-repeat center">
+        <div class="container">
+            <div class="hero__wrap hero__wrap--contacts">
+                <div class="hero__content">
+                    <h2 class="hero__title hero__title--contacts">Контакты</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="contacts__wrap">
+            <div class="contacts__phones">
+                <div class="contacts__phones-wrap">
+                    <ul class="footer__contacts-list contacts__list">
+                        <li class="footer__contacts-item">
+                            <a class="footer__contacts-link footer__contacts-link--phone"
+                               href="tel:+375 17 351-89-81">Тел. +375
+                                17 351-89-81</a>,
+                        </li>
+                        <li class="footer__contacts-item">
+                            <a class="footer__contacts-link footer__contacts-link--fax"
+                               href="fax:+375 17 351-89-81">Факс. +375
+                                17 351-89-81</a>
+                        </li>
+                        <li class="footer__contacts-item">
+                            <a class="footer__contacts-link footer__contacts-link--mail"
+                               href="mailto:info@techim.port.by">info@techim.port.by</a>
+                        </li>
+                        <li class="footer__contacts-item">
+                            <a class="footer__contacts-link footer__contacts-link--site"
+                               href="http://www.techimport.by">http://www.techimport.by</a>
+                        </li>
+                    </ul>
+                    <div class="footer__requisites-wrap">
+                        <span class="footer__address contacts__address">г.Минск, ул. Полтавская, 10-100, инд. 220028</span>
+                        <p class="footer__requisites contacts__requisites">
+                            <span class="footer__requisites-title">Наши реквизиты:</span>
+                            УНП 193150014, ОКПО 502343875000,<br>
+                            р/с BY51ALFA30122400000010270000,<br>
+                            БИК ALFABY2X<br>
+                            ЗАО «АЛЬФАБАНК», г.Минск, ул. Сурганова, 43-47<br>
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="contacts__social-wrap">
+                    {% include 'components/social-links.twig' with
+                        {
+                            mod : 'social-links--footer',
+                        }, %}
+                </div>
+            </div>
+            <div class="contacts__form-wrap">
+                <div class="form__wrap contacts__form--wrap">
+                    <h4 class="form__title contacts__title">Задайте вопрос или кратко опишите ситуацию. <br>
+                        Наши специалисты перезвонят Вам и ответят на все вопросы.</h4>
+                    <form class="form contacts__form" action="#">
+                        <div class="form__input-wrap contacts__input-wrap">
+                            <label class="form__label contacts__label" for="name">
+                                <input class="form__input" id="name" type="text" placeholder="Ваше имя">
+                            </label>
+                            <label class="form__label contacts__label" for="tel">
+                                <input class="form__input" id="tel" type="tel" placeholder="Ваш номер телефона"
+                                       required>
+                            </label>
+                            <label class="form__label contacts__label" for="email">
+                                <input class="form__input" id="email" type="email" placeholder="E-mail" required>
+                            </label>
+                        </div>
+                        <div class="form__textinput-wrap contacts__textarea">
+                            <div class="form__textarea-wrap">
+                 <textarea class="form__textarea" id="textarea" name="textarea" cols="30" rows="10" placeholder="Дополнительная информация
+* (Вы можете указать желаемое время звонка, задать вопрос, прикрепить файл и т.д)"></textarea>
+                                <label class="form__label-file">
+                                    <input class="form__input-file" type="file">
+                                </label>
+                            </div>
+
+                            <div class="form__btn-wrap">
+                                <button class="btn btn--green form__btn" type="submit">Отправить</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <iframe class="contacts__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2349.277337511688!2d27.58710171599324!3d53.926816538773494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcf0b7098d6f3%3A0xe00c5601cee5506c!2svulica%20Surhanava%2043%2C%20Minsk!5e0!3m2!1sen!2sby!4v1598899550608!5m2!1sen!2sby" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+{% endblock %}

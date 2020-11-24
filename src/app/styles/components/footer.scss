@@ -1,0 +1,270 @@
+.footer {
+  //padding-top: 50px;
+
+  &__wrap {
+    padding-bottom: 25px;
+  }
+
+  &__requisites-wrap {
+    margin-right: 20px;
+
+    @include tablet {
+      margin-right: 0;
+    }
+    @include mobile {
+      margin-right: 0;
+    }
+  }
+
+  &__wrapper-requisites {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+
+    @include tablet {
+      flex-direction: column;
+    }
+
+    @include mobile {
+      justify-content: center;
+      width: 100%;
+    }
+  }
+
+  &__logo {
+    margin-bottom: 50px;
+  }
+
+  &__title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #454545;
+
+    @include tablet {
+      font-size: 14px;
+      line-height: 19px;
+    }
+  }
+
+  &__requisites {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #454545;
+
+    @include tablet {
+      font-size: 14px;
+      line-height: 19px;
+    }
+  }
+
+  &__requisites-title {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #454545;
+    @include tablet {
+      font-size: 14px;
+      line-height: 19px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+
+    @include mobile {
+      flex-direction: column;
+    }
+  }
+
+  &__btn {
+    width: 100%;
+  }
+
+  &__label {
+    width: 100%;
+  }
+
+  &__nav {
+    display: flex;
+
+    @include tablet {
+      flex-direction: column;
+      margin-top: 40px;
+    }
+    @include mobile {
+      display: none;
+      flex-direction: column;
+    }
+  }
+
+  &__nav-item {
+    margin-bottom: 15px;
+    @include tablet {
+      margin-bottom: 0;
+    }
+    @include mobile {
+      margin-bottom: 0;
+    }
+
+
+    //&--main {
+    //  margin-bottom: 40px;
+    //
+    //  @include tablet {
+    //    margin-bottom: 0;
+    //  }
+    //  @include mobile {
+    //    margin-bottom: 0;
+    //  }
+    //}
+
+    &-link {
+
+      @include tablet {
+        display: none;
+      }
+      @include mobile {
+        display: none;
+      }
+    }
+  }
+
+  //&__nav-link--main {
+  //  font-weight: bold;
+  //
+  //  @include tablet {
+  //    font-weight: normal;
+  //    font-size: 16px;
+  //    line-height: 34px;
+  //  }
+  //  @include mobile {
+  //    font-weight: normal;
+  //    font-size: 16px;
+  //    line-height: 34px;
+  //  }
+  //}
+
+  &__requisites {
+    display: flex;
+    flex-direction: column;
+
+    &-title {
+      margin: 27px 0;
+    }
+  }
+
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include mobile {
+      margin-top: 20px;
+    }
+
+    &-item {
+      margin-bottom: 15px;
+    }
+
+    &-link {
+      position: relative;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 34px;
+
+      color: #454545;
+
+      @include tablet {
+        font-size: 16px;
+        line-height: 34px;
+      }
+
+      &--phone {
+        &:before {
+          position: absolute;
+          content: '';
+          width: 20px;
+          height: 20px;
+          left: -30px;
+          background: url("../images/phone.svg") no-repeat center;
+        }
+      }
+
+      &--fax {
+        &:before {
+          position: absolute;
+          content: '';
+          width: 20px;
+          height: 20px;
+          left: -30px;
+          background: url("../images/fax.svg") no-repeat center;
+        }
+      }
+
+      &--mail {
+        &:before {
+          position: absolute;
+          content: '';
+          width: 20px;
+          height: 20px;
+          left: -30px;
+          background: url("../images/mail.svg") no-repeat center;
+        }
+      }
+
+      &--site {
+        &:before {
+          position: absolute;
+          content: '';
+          width: 20px;
+          height: 20px;
+          left: -30px;
+          background: url("../images/site.svg") no-repeat center;
+        }
+      }
+    }
+  }
+
+  &__address {
+    position: relative;
+    font-weight: normal;
+    font-size: 16px;
+    color: #454545;
+    line-height: 32px;
+    padding-left: 30px;
+    margin-top: 27px;
+
+    @include tablet {
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    &:before {
+      position: absolute;
+      content: '';
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 13px;
+      height: 22px;
+      background: url("../images/marker.svg") no-repeat center;
+    }
+  }
+
+  &__form {
+    display: flex;
+
+  }
+
+  .footer__form .form__input-wrap {
+    width: 100%;
+  }
+
+  &__form .form__btn-wrap {
+    margin-top: 0;
+  }
+
+}

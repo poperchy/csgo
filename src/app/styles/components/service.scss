@@ -1,0 +1,78 @@
+.service {
+
+  &__desc {
+    background: #F3F3F3;
+
+    @include mobile {
+      background: #FFFFFF;
+    }
+  }
+
+  &__cube {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    svg {
+      @include tablet {
+        width: 289px;
+      }
+    }
+
+    @include mobile {
+      display: none;
+    }
+  }
+
+  &__desc-wrap {
+    position: relative;
+    display: flex;
+    min-height: 283px;
+
+    @include tablet {
+      min-height: 195px;
+    }
+  }
+
+  &__articles {
+    padding: 50px 0 30px 0;
+    width: 75%;
+    z-index: 2;
+    margin-left: auto;
+
+    @include tablet {
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    @include mobile {
+      width: 100%;
+      margin-left: 0;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 21px;
+      color: #454545;
+      margin-bottom: 20px;
+    }
+
+    &--hide {
+      @include tablet {
+        display: none;
+      }
+    }
+
+    &--show {
+      display: none;
+      @include tablet {
+        display: block;
+      }
+    }
+
+    &--show p {
+      margin: 50px 0 50px 0;
+    }
+  }
+}

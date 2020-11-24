@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+{% block header %}
+    {% include '../layout/header.twig' %}
+{% endblock %}
+{% block body %}
+{% endblock %}
+{% block footer %}
+    {% include '../layout/footer.twig' %}
+{% endblock %}
+{% block scripts %}
+
+    <script src="/js/libs/swiper-bundle.min.js"></script>
+    <script src="/js/libraries.js"></script>
+    <script src="/js/App.js"></script>
+    <script src="/js/libs/jquery.mask.min.js"></script>
+    <script src="/js/libs/readmore.min.js"></script>
+
+{% endblock %}
+<div class="sent__overlay" id="modal-sent">
+    <div class="sent">
+        <span class="sent__close">&times;</span>
+        <p class="sent__title">Спасибо за заявку!</p>
+        <span class="sent__desc">Наш специалист с вами свяжется в ближайшее вермя</span>
+    </div>
+</div>
+<div class="sent__overlay--form" id="modal-set--form">
+    <div class="sent__form">
+        <span class="sent__close">&times;</span>
+        <h4 class="sent__overlay-title">Мы перезвоним вам!</h4>
+        <form class="form__overlay" action="#" id="form">
+            <div class="form__input-wrap sent__input-wrap">
+                <label class="form__label" for="name">
+                    <input class="form__input" id="name" type="text" placeholder="Ваше имя">
+                </label>
+                <label class="form__label" for="tel">
+                    <input class="form__input" id="tel" type="tel" placeholder="Ваш номер телефона" required>
+                </label>
+                <p class="sent__ps"><sup>*</sup>Звонок бесплатный</p>
+            </div>
+            <div>
+                <div class="form__btn-wrap">
+                    <button class="btn btn--green form__btn" type="submit">Заказать обратный звонок</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
