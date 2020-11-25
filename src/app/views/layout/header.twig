@@ -1,126 +1,15 @@
 <header class="header">
     <div class="container">
         <div class="header__wrap">
-            <h1 class="visually-hidden">Техимпорт</h1>
-
-            <div class="logo">
-                <a href="#">
-                    {% include '../components/img.twig' with
-                        {
-                            title : 'Техимпорт',
-                            tablet_src : '../images/logo.png',
-                            mobile_src : '../images/logo-mobile.svg',
-                            src : '../images/logo.svg',
-                            responsive : true,
-                        }, %}
-                </a>
+            <img src="images/logo.svg" alt="">
+            <ul>
+                <li><a href="#">How it works</a></li>
+                <li><a href="#">How to connect</a></li>
+                <li><a href="#">Benefits</a></li>
+            </ul>
+            <div class="header__wrap-btn">
+                <a href="#" class="btn">contact us</a>
             </div>
-            {# <div class="header__language-wrap"> #}
-            {# <select name="language" id="language" class="select"> #}
-            {# <option value="RU" selected>RU</option> #}
-            {# <option value="EN">EN</option> #}
-            {# </select> #}
-            {# </div> #}
-            <nav>
-                <label for="drop" class="toggle btn__burger">
-                    <span class="visually-hidden">Открыть меню</span>
-                    <span class="btn__burger-burger"></span>
-                </label>
-                <input type="checkbox" id="drop"/>
-                <ul class="menu">
-                    <li class="nav__item">
-                        <label for="drop-1" class="toggle toggle--arrow">Каталог</label>
-                        <a class="drop-arrow" href="#">Каталог</a>
-                        <input type="checkbox" id="drop-1"/>
-                        <ul>
-                            <li>
-                                <label for="drop-3" class="toggle toggle--arrow">Промышленный инструмент</label>
-                                <a href="#">Промышленный инструмент</a>
-                                <input type="checkbox" id="drop-3"/>
-                                <ul class="drop__list-2">
-                                    <li><a href="#">LAGOS</a></li>
-                                    <li><a href="#">Scheuch</a></li>
-                                    <li><a href="#">Giardinagroup</a></li>
-                                    <li><a href="#">Siebenhaar-antriebstechnik</a></li>
-                                    <li><a href="#">Aquafrisch</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <label for="drop-4" class="toggle toggle--arrow">Металообрабатывающее
-                                    оборудование</label>
-                                <a href="#">Металообрабатывающее оборудование</a>
-                                <input type="checkbox" id="drop-4"/>
-                                <ul class="drop__list-2">
-                                    <li><a href="#">LAGOS</a></li>
-                                    <li><a href="#">Scheuch</a></li>
-                                    <li><a href="#">Giardinagroup</a></li>
-                                    <li><a href="#">Siebenhaar-antriebstechnik</a></li>
-                                    <li><a href="#">Aquafrisch</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <label for="drop-5" class="toggle toggle--arrow">Деревообрабатывающее
-                                    оборудование</label>
-                                <a href="#">Деревообрабатывающее оборудование</a>
-                                <input type="checkbox" id="drop-5"/>
-                                <ul class="drop__list-2">
-                                    <li><a href="#">LAGOS</a></li>
-                                    <li><a href="#">Scheuch</a></li>
-                                    <li><a href="#">Giardinagroup</a></li>
-                                    <li><a href="#">Siebenhaar-antriebstechnik</a></li>
-                                    <li><a href="#">Aquafrisch</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <label for="drop-6" class="toggle toggle--arrow">Технологическое оборудование и
-                                    инженерные
-                                    решения</label>
-                                <a href="#">Технологическое оборудование и инженерные решения</a>
-                                <input type="checkbox" id="drop-6"/>
-                                <ul class="drop__list-2">
-                                    <li><a href="#">LAGOS</a></li>
-                                    <li><a href="#">Scheuch</a></li>
-                                    <li><a href="#">Giardinagroup</a></li>
-                                    <li><a href="#">Siebenhaar-antriebstechnik</a></li>
-                                    <li><a href="#">Aquafrisch</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <label for="drop-7" class="toggle toggle--arrow">Сервис и запасные части</label>
-                                <a href="#">Сервис и запасные части</a>
-                                <input type="checkbox" id="drop-7"/>
-                                <ul class="drop__list-2">
-                                    <li><a href="#">LAGOS</a></li>
-                                    <li><a href="#">Scheuch</a></li>
-                                    <li><a href="#">Giardinagroup</a></li>
-                                    <li><a href="#">Siebenhaar-antriebstechnik</a></li>
-                                    <li><a href="#">Aquafrisch</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Статьи</a></li>
-                    <li><a href="#">Контакты</a></li>
-                    <li class="nav__item--sub-phone"><a href="tel:+375173518981">+375 17 351-89-81</a></li>
-                    {% include '../components/social-links.twig' with
-                        {
-                            mod : 'social-links--nav',
-                            modList : 'social-links__list--nav',
-                        }, %}
-                    {% include '../components/callback.twig' with
-                        {
-                            mod: 'callback-wrap--show-mobile',
-                        }, %}
-                </ul>
-            </nav>
-
-            <div class="phone">
-                <a class="nav__link nav__link--phone" href="tel:+375 17 351-89-81">+375 17 351-89-81</a>
-            </div>
-            {% include '../components/callback.twig' with
-                {
-                    mod: 'callback-wrap--nav',
-                }, %}
         </div>
     </div>
 </header>

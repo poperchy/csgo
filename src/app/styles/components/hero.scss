@@ -1,234 +1,79 @@
 .hero {
-  background: url("../images/hero.jpg") no-repeat center;
+  background: url("../images/bg.jpg") no-repeat center;
   background-size: cover;
-  min-height: 466px;
-  margin-top: 107px;
-
-
-
-  &--contacts {
-    min-height: 377px;
-  }
-
-  &__desc--hide {
-    display: none;
-  }
-
-  &__btn--hide {
-    display: none;
-  }
-
-  &--industrial {
-    background: url("../images/hero-industrial.jpg") no-repeat center;
-    background-size: cover;
-  }
-
-  &--fein {
-    background: url("../images/hero-fein.jpg") no-repeat right;
-    background-size: cover;
-
-    @media (max-width: 1520px) {
-      background: url("../images/hero-fein-tablet.jpg") no-repeat center;
-      background-size: cover;
-    }
-  }
-
-  @include mobile {
-    margin-top: 58px;
-    min-height: 350px;
-  }
-
-  &--paul{
-    background: url("../images/hero-paul.jpg") no-repeat right;
-    background-size: cover;
-  }
+  min-height: 890px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   &__wrap {
-    min-height: 466px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    &--contacts {
-      min-height: 377px !important;
-    }
-
-    @include mobile {
-      min-height: 350px;
-      padding: 20px 0;
-    }
-  }
-
-  &__btn {
-    box-shadow: 0px 13px 27px -15px rgba(255, 255, 255, 0.6);
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 29px;
-    padding: 24px 39px;
-    margin-top: 55px;
-
-    @include mobile {
-      font-size: 16px;
-      line-height: 21px;
-      padding: 15px 21px;
-    }
-  }
-
-
-
-  &__title {
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 36px;
-    color: #FFFFFF;
-    width: 50%;
-
-    &--center {
-      width: 100%;
-      text-align: center;
-    }
-
-    &--contacts {
-      width: 100%;
-      text-align: center;
-    }
-
-    @include tablet {
-      width: 90%;
-      font-size: 26px;
-      line-height: 36px;
-    }
-
-    @include mobile {
-      font-size: 18px;
-      line-height: 24px;
-      width: 100%;
-    }
-
-    &--articles {
-      width: 100%;
-      text-align: center;
-      @include tablet {
-        width: 100%;
-        text-align: center;
-      }
-      @include mobile {
-        width: 100%;
-        text-align: center;
-      }
-    }
-  }
-
-  &__title--not-index {
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 36px;
-    width: 100%;
-    text-align: center;
-    color: #FFFFFF;
-    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
-  }
-
-  &__title--fein {
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 36px;
-    text-shadow: none;
-    color: #454545;
-  }
-
-  &__desc {
-    margin-top: 35px;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FFFFFF;
-    width: 55%;
-
-    @include tablet {
-      width: 100%;
-      font-size: 16px;
-      line-height: 22px;
-    }
-
-    @include mobile {
-      font-size: 14px;
-      line-height: 18px;
-      width: 100%;
-    }
-  }
-
-  &__search-wrap {
     display: flex;
     justify-content: center;
-    margin-top: 60px;
+    align-items: center;
 
-    @include tablet {
-      margin-top: 30px;
+    //padding-bottom: 100px;
+    .hero__title-wrap{
+      //width: 60%;
+      transform-style: preserve-3d;
+      .ak{
+        top: -65px;
+        right: 0;
+      }
+      .boom{
+        bottom: 20px;
+        right: 180px;
+      }
+      .glock{
+        right: 0;
+        bottom: 0;
+      }
     }
-    @include mobile {
-      margin-top: 30px;
+    .hero__weapons{
+      position: absolute;
+      top: 0;
+
+
     }
-  }
+    //.hero__title-wrap, .hero__weapons {
+    //  width: 50%;
+    //}
 
-  &__search-input {
-    background: transparent;
-    border: none;
-    width: 495px;
-    height: 30px;
+    .hero__title-wrap {
+      //max-width: 450px;
 
-    @include mobile {
-      width: 207px;
+      span {
+        color: #70338C;
+      }
+
+      p {
+        color: #C9AFD6;
+        margin-bottom: 80px;
+        max-width: 340px;
+        width: 100%;
+        font-size: 24px;
+        line-height: 33px;
+      }
+
+      a {
+        display: inline-block;
+        padding: 17px 52px;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+      }
+
+      h1 {
+        font-family: russo, sans-serif;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 65px;
+        padding-right: 380px;
+      }
     }
 
-    &:focus {
-      border: none;
+    .weapon-img{
+      position: absolute;
     }
-
-    &::placeholder {
-      color: #454545;
-    }
-  }
-
-  &--articles {
-    @include tablet {
-      min-height: 269px;
-    }
-    @include mobile {
-      min-height: 146px;
-    }
-  }
-
-  &__wrap--articles {
-
-    @include tablet {
-      min-height: 269px;
-    }
-    @include mobile {
-      min-height: 146px;
-    }
-  }
-
-  &__search-label {
-    padding: 14px 50px 14px 20px;
-    width: 100%;
-    position: relative;
-    background: rgba(255, 255, 255, 0.7);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    white-space: nowrap;
-  }
-
-  &__search-btn {
-    position: absolute;
-    background: transparent;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 0;
-    border: none;
-    border-left: 1px solid #454545;
-    height: 40px;
-    width: 50px;
   }
 }

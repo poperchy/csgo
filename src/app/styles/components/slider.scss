@@ -1,0 +1,9 @@
+.slider {
+  background: #FFFFFF url("../images/honeycomb.svg");
+  background-size: cover;
+
+
+  &__wrap {
+    min-height: 612px;
+  }
+}

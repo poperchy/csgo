@@ -1,0 +1,77 @@
+.payment {
+  background: url("../images/bg2.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 150px;
+  padding-bottom: 113px;
+  margin-top: -65px;
+
+  h3 {
+    font-family: russo, sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 15px;
+  }
+  p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #C9AFD6;
+  }
+
+  &__title-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+
+    h3{
+      font-size: 30px;
+      line-height: 36px;
+    }
+    p{
+      font-size: 18px;
+      line-height: 25px;
+    }
+  }
+  &__list{
+    display: grid;
+    grid-template-columns: repeat(4, 170px);
+    justify-content: space-between;
+  }
+  &__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img{
+      margin-bottom: 50px;
+      width: 100%;
+      height: auto;
+    }
+
+  }
+
+  &__desc{
+    background: url("../images/frame.svg")no-repeat;
+    width: 100%;
+    height: 63px;
+    p{
+      font-family: russo, sans-serif;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 22px;
+      color: #ffffff;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      padding: 6px 9px;
+      margin-top: -5px;
+
+    }
+
+  }
+
+}

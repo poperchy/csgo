@@ -1,97 +1,286 @@
 {% extends 'layout/base.twig' %}
-{% block title %}Техимпорт{% endblock %}
+{% block title %}SGBB{% endblock %}
 {% block body %}
-    <section class="hero {{ modHero }}">
-        <div class=" index-slider">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide"
-                     style="background: url(../images/hero.jpg) no-repeat center; background-size: cover">
-                    <div class="container">
-                        <h2 class="hero__title {{ modTitle }}">Поставка промышленного инструмента и оборудования на
-                            предприятия РБ.</h2>
-                        <p class="hero__desc {{ modDesc }}">Основными нашими заказчиками являются предприятия,
-                            нацеленные на модернизацию#}
-                            производства и оптимизацию технологического процесса. Наш опыт и компетенция позволяют
-                            решать самые#}
-                            сложные задачи оснащения производства.</p>
-                        <button class="btn hero__btn btn--green {{ modBtn }}">Запрос на оборудование</button>
-                    </div>
+    <section class="hero">
+        <div class="container">
+            <div class="hero__wrap">
+                <div class="hero__title-wrap">
+                    <h1><span>SGBB</span>- payment with CS:GO items directly on your website</h1>
+                    <p>Simple connection. No extra commission</p>
+                    <a href="#" class="btn">Сonnect your site</a>
+                    <img src="images/ak.svg" alt="" class="weapon-img ak">
+                    <img src="images/boomich.svg" alt="" class="weapon-img boom">
+                    <img src="images/glock.svg" alt="" class="weapon-img glock">
                 </div>
-                <div class="swiper-slide"
-                     style="background: url(../images/hero.jpg) no-repeat center; background-size: cover">
-                    <div class="container">
-                        <h2 class="hero__title {{ modTitle }}">Поставка промышленного инструмента и оборудования на
-                            предприятия РБ.</h2>
-                        <p class="hero__desc {{ modDesc }}">Основными нашими заказчиками являются предприятия,
-                            нацеленные на модернизацию#}
-                            производства и оптимизацию технологического процесса. Наш опыт и компетенция позволяют
-                            решать самые#}
-                            сложные задачи оснащения производства.</p>
-                        <button class="btn hero__btn btn--green {{ modBtn }}">Запрос на оборудование</button>
+            </div>
+        </div>
+    </section>
+    <section class="banner">
+        <div class="banner__wrap">
+            <img src="images/bgpurple2.svg" alt="" class="banner-bg">
+            <div class="banner__wrap-coin">
+                <img src="images/coins.svg" alt="" class="coins">
+            </div>
+        </div>
+    </section>
+    <section class="payment">
+        <div class="container container--payment">
+            <div class="payment__wrap">
+                <div class="payment__title-wrap">
+                    <h3>Unique payment system</h3>
+                    <p>New source of profit for your business</p>
+                </div>
+                <div class="payment__list">
+                    <div class="payment__item">
+                        <img src="images/icon1.svg" alt="">
+                        <div class="payment__desc">
+                            <p>Increase <br> conversion rate</p>
+                        </div>
+                    </div>
+                    <div class="payment__item">
+                        <img src="images/icon2.svg" alt="">
+                        <div class="payment__desc">
+                            <p>More revenue</p>
+                        </div>
+                    </div>
+                    <div class="payment__item">
+                        <img src="images/icon3.svg" alt="">
+                        <div class="payment__desc">
+                            <p>Enter a new <br> market</p>
+                        </div>
+                    </div>
+                    <div class="payment__item">
+                        <img src="images/icon4.svg" alt="">
+                        <div class="payment__desc">
+                            <p>Customer <br> satisfaction</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- Add Arrows -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
         </div>
-        {# <div class="hero__wrap"> #}
-        {# <div class="hero__content"> #}
-        {# <h2 class="hero__title {{ modTitle }}">Поставка промышленного инструмента и оборудования на предприятия РБ.</h2> #}
-        {# <p class="hero__desc {{ modDesc }}">Основными нашими заказчиками являются предприятия, нацеленные на модернизацию #}
-        {# производства и оптимизацию технологического процесса. Наш опыт и компетенция позволяют решать самые #}
-        {# сложные задачи оснащения производства.</p> #}
-        {# <button class="btn hero__btn btn--green {{ modBtn }}">Запрос на оборудование</button> #}
-        {# </div> #}
-        {# </div> #}
-
     </section>
-    <div class="wrap__categories">
-        {% include 'components/about-card.twig' %}
-        {% include 'components/title-block.twig' with
-            {
-                title : 'Категории оборудования',
-            } %}
-        {% include 'components/categories.twig' with
-            {
-                card : [
-                {
-                    desc : 'Промышленный <br> инструмент',
-                    img : '../images/31381.jpg',
-                    link : '#',
-                },
-                {
-                    desc : 'Металообрабатывающее оборудование',
-                    img : '../images/31381.jpg',
-                    link : '#',
-                },
-                {
-                    desc : 'Деревообрабатывающее оборудование',
-                    img : '../images/31381.jpg',
-                    link : '#',
-                },
-                {
-                    desc : 'Технологическое оборудование и инженерные решения',
-                    img : '../images/31381.jpg',
-                    link : '#',
-                },
-                {
-                    desc : 'Сервис и запасные части',
-                    img : '../images/31381.jpg',
-                    link : '#',
-                },
-            ]
-            } %}
-    </div>
-    {% include 'components/about-desc.twig' %}
-    {% include 'components/title-block.twig' with
-        {
-            title : 'Поставляемые бренды',
-        } %}
-    {% include 'components/brands.twig' %}
-    {% include 'components/title-block.twig' with
-        {
-            title : 'Свяжитесь с нами',
-        } %}
-    {% include 'components/сontact-us.twig' %}
+    <section class="works">
+        <div class="container">
+            <div class="works__wrap">
+                <h3>How it works</h3>
+                <div class="works__list">
+                    <div class="works__item">
+                        <div class="works__number">
+                            <span>1</span>
+                        </div>
+                        <p>Add a new payment method on your website</p>
+                    </div>
+                    <div class="works__item works__item--r">
+                        <p>Customer pay for the order through our service</p>
+                        <div class="works__number">
+                            <span>2</span>
+                        </div>
+                    </div>
+                    <div class="works__item">
+                        <div class="works__number">
+                            <span>3</span>
+                        </div>
+                        <p>Money instantly
+                            are credited to the account
+                            in your personal account</p>
+                    </div>
+                    <div class="works__item works__item--r">
+                        <p>Withdraw deposit any size in a convenient way</p>
+                        <div class="works__number">
+                            <span>4</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="works__payments">
+                    <img src="images/payments.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="form">
+        <div class="container container--payment">
+            <div class="form__wrap">
+                <div class="form__info">
+                    <h3>More customers</h3>
+                    <p>By accepting payment with CS:GO items, millions of gamers can become your customers</p>
+                </div>
+                <form action="#">
+                    <h3>Apply for connect </h3>
+                    <label for="name">Your name</label>
+                    <input id="name" type="text" placeholder="Harry">
+
+                    <label for="email">Your e-mail </label>
+                    <input id="email" type="text" placeholder="xxx@example.com">
+
+                    <label for="comment" class="textarea">Comment</label>
+                    <div class="textarea__wrap">
+                        <textarea class="textarea__item" id="comment" cols="30" rows="10" maxlength="100"
+                                  placeholder=""></textarea>
+                        <span class="textarea__place">please enter up to 100 characters</span>
+                    </div>
+                    <button type="button" class="btn">Join</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="connect">
+        <div class="container container--payment">
+            <div class="connect__wrap">
+                <h3>How to connect your website</h3>
+                <p>And start accepting payments with CS:GO items</p>
+                <div class="connect__list">
+                    <div class="connect__item">
+                        <div class="indicator__wrap">
+                            <div class="indicator__img-wrap">
+                                <img src="images/25.svg" class="percent percent--25" alt="">
+                                <img src="images/indicator.svg" class="in25" alt="">
+                            </div>
+
+                            <div class="indicator"><span class="dynamic-number">25</span>%</div>
+                        </div>
+                        <p>Contact us</p>
+                    </div>
+                    <div class="connect__item">
+                        <div class="indicator__wrap">
+                            <div class="indicator__img-wrap">
+                                <img src="images/50.svg" class="percent percent--50" alt="">
+                                <img src="images/indicator.svg" alt="">
+                            </div>
+                            <div class="indicator"><span class="dynamic-number">50</span>%</div>
+                        </div>
+                        <p>Сreate an account</p>
+                    </div>
+                    <div class="connect__item">
+                        <div class="indicator__wrap">
+                            <div class="indicator__img-wrap">
+                                <img src="images/75.svg" class="percent percent--75" alt="">
+                                <img src="images/indicator.svg" class="in75" alt="">
+                            </div>
+                            <div class="indicator"><span class="dynamic-number">75</span>%</div>
+                        </div>
+                        <p>Integrate API</p>
+                    </div>
+                    <div class="connect__item">
+                        <div class="indicator__wrap">
+                            <div class="indicator__img-wrap">
+                                <img src="images/100.svg" class="percent percent--100" alt="">
+                                <img src="images/indicator.svg" alt="">
+                            </div>
+                            <div class="indicator"><span class="dynamic-number">100</span>%</div>
+                        </div>
+                        <p>Done!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="need">
+        <div class="container container--need">
+            <div class="need__wrap">
+                <div class="payment__wrap">
+                    <div class="payment__title-wrap">
+                        <h3>Why you need to use SGBB</h3>
+                        <p>Unique system to attract new customers</p>
+                    </div>
+                    <div class="payment__list">
+                        <div class="payment__item">
+                            <img src="images/need1.svg" alt="">
+                            <div class="payment__desc">
+                                <p>Easy <br> connection</p>
+                            </div>
+                            <p class="need__p">the process takes one <br> day</p>
+                        </div>
+                        <div class="payment__item">
+                            <img src="images/need2.svg" alt="">
+                            <div class="payment__desc">
+                                <p>Minimum <br> commission</p>
+                            </div>
+                            <p class="need__p">you get 100% of the user's deposit</p>
+                        </div>
+                        <div class="payment__item">
+                            <img src="images/need3.svg" alt="">
+                            <div class="payment__desc">
+                                <p>Safety</p>
+                            </div>
+                            <p class="need__p">we use our own <br> anti-scam system</p>
+                        </div>
+                        <div class="payment__item">
+                            <img src="images/need4.svg" alt="">
+                            <div class="payment__desc">
+                                <p>24/7 <br> support</p>
+                            </div>
+                            <p class="need__p">our specialist will <br>answer you as soon as possible</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="images/bt.svg" class="border-img bt" alt="">
+                <img src="images/bl.svg" class="border-img bl" alt="">
+                <img src="images/bb.svg" class="border-img bb" alt="">
+                <img src="images/br.svg" class="border-img br" alt="">
+                <img src="images/brt.svg" class="border-img brt" alt="">
+                <img src="images/blt.svg" class="border-img blt" alt="">
+                <img src="images/bbl.svg" class="border-img bbl" alt="">
+                <img src="images/bbr.svg" class="border-img bbr" alt="">
+{#                <img src="images/border.svg" class="border-img" alt="">#}
+            </div>
+        </div>
+    </section>
+    <section class="our">
+        <div class="container container--need">
+            <div class="our__wrap">
+                <div class="payment__title-wrap">
+                    <h3>Our performance</h3>
+                    <p>for 2020</p>
+                </div>
+                <div class="our__list indicator__wrap">
+                    <div class="our__item">
+                        <span class="dynamic-number">198</span>
+                        <p>websites connected to our system</p>
+                        <div class="our__elem"></div>
+                    </div>
+                    <div class="our__item">
+                        <span class="dynamic-number">984 252</span>
+                        <p>transaction</p>
+                        <div class="our__elem"></div>
+                    </div>
+                    <div class="our__item">
+                        <div class="our__wrap-span">
+                            <span class="mr7">$</span> <span class="dynamic-number"> 4 053 012</span>
+                        </div>
+
+                        <p>increased customer revenue</p>
+                        <div class="our__elem"></div>
+                    </div>
+                    <div class="our__item">
+                        <div class="our__wrap-span">
+                             <span class="dynamic-number">30</span><span class="ml7">sec</span>
+                        </div>
+                        <p>required to pay with skins</p>
+                        <div class="our__elem"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="images/lines.svg" class="lines" alt="">
+    </section>
+    <section class="slider">
+        <div class="slider__wrap">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
+                    <div class="swiper-slide">Slide 10</div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
 {% endblock %}
