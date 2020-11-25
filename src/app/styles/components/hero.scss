@@ -6,6 +6,13 @@
   flex-direction: column;
   justify-content: center;
 
+  @media(max-width: 910px) {
+    padding-bottom: 150px;
+    min-height: auto;
+  }
+@include mobile{
+  padding-bottom: 110px;
+}
   &__wrap {
     display: flex;
     justify-content: center;
@@ -18,14 +25,26 @@
       .ak{
         top: -65px;
         right: 0;
+        @media(max-width: 910px){
+          transform-style: flat !important;
+          transform: none!important;
+        }
       }
       .boom{
         bottom: 20px;
         right: 180px;
+        @media(max-width: 910px){
+          transform-style: flat !important;
+          transform: none!important;
+        }
       }
       .glock{
         right: 0;
         bottom: 0;
+        @media(max-width: 910px){
+          transform-style: flat !important;
+          transform: none!important;
+        }
       }
     }
     .hero__weapons{
@@ -52,6 +71,13 @@
         width: 100%;
         font-size: 24px;
         line-height: 33px;
+        @media(max-width: 910px) {
+          margin-bottom: 50px;
+        }
+        @include mobile{
+          font-size: 18px;
+          line-height: 25px;
+        }
       }
 
       a {
@@ -60,6 +86,9 @@
         font-weight: bold;
         font-size: 18px;
         line-height: 25px;
+        @media(max-width: 910px) {
+          margin-top: 40px;
+        }
       }
 
       h1 {
@@ -69,6 +98,17 @@
         line-height: 48px;
         margin-bottom: 65px;
         padding-right: 380px;
+
+        @media(max-width: 910px) {
+          padding-right: 0;
+          padding-top: 40px;
+          margin-bottom: 15px;
+        }
+        @include mobile{
+          font-size: 30px;
+          line-height: 36px;
+        }
+
       }
     }
 
@@ -76,4 +116,19 @@
       position: absolute;
     }
   }
+}
+.wrap--img{
+  @media(max-width: 910px) {
+   display: none;
+  }
+}
+.guns-mob{
+  display: none;
+  @media(max-width: 910px) {
+    display: block;
+    width: 100%;
+  }
+}
+.wrap-btn-mobile{
+  justify-content: center;
 }

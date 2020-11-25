@@ -3,13 +3,60 @@
   position: absolute;
   width: 100%;
 
+  @media(max-width: 910px) {
+    position: relative;
+  }
+
   &__wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 60px;
+    transition: 0.2s;
 
-    ul{
+    img {
+
+      @media(max-width: 910px) {
+        margin: 0 auto;
+      }
+    }
+
+    &-btn {
+      @media(max-width: 910px) {
+        display: none;
+      }
+
+      &--mobile {
+        @media(max-width: 910px) {
+          display: flex;
+          margin-bottom: 50px;
+        }
+      }
+    }
+
+    .nav__list {
+
+      @media(max-width: 910px) {
+        display: none;
+      }
+
+      a {
+        &:hover {
+          color: #825199;
+          transition: 0.2s;
+        }
+      }
+
+      &--mobile {
+        @media(max-width: 910px) {
+          display: flex;
+          flex-direction: column;
+          align-items: end;
+        }
+      }
+    }
+
+    ul {
       display: flex;
       align-items: center;
       max-width: 392px;
@@ -17,11 +64,83 @@
       justify-content: space-between;
       gap: 20px;
 
-      li{
+      li {
         font-weight: normal;
         font-size: 14px;
         line-height: 19px;
       }
+    }
+  }
+}
+
+.burger {
+  position: absolute;
+  left: 20px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: transparent;
+
+
+  span {
+    background: #FFFFFF;
+    width: 23px;
+    height: 3px;
+  }
+}
+
+.nav__mobile {
+  padding: 50px 43px 0 43px;
+  position: fixed;
+  height: 100vh;
+  width: 60%;
+  background: #111E31;
+  z-index: 10000;
+  transform: translateX(-100%);
+  transition: 0.2s;
+
+  &--active{
+    transform: translateX(0);
+    transition: 0.2s;
+  }
+
+  .nav__list--mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    a {
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 30px;
+    }
+  }
+
+}
+
+.close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background: transparent;
+  width: 18px;
+  height: 18px;
+
+  span {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    width: 18px;
+    height: 3px;
+    background: #FFFFFF;
+&:first-child{
+  transform: rotate(-45deg);
+}
+    &:last-child{
+      transform: rotate(45deg);
     }
   }
 }

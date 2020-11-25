@@ -5,6 +5,7 @@ body {
   color: #ffffff;
   perspective: 1000px;
   background: radial-gradient(101.21% 101.21% at 83.05% 101.21%, #061020 0%, #0E1B31 100%), #061020;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -29,14 +30,24 @@ a {
   color: #ffffff;
 }
 .btn{
+  position: relative;
   display: flex;
+
   background: linear-gradient(93.82deg, #01DFCC 5.29%, #018E85 107.98%);
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 30px;
   align-items: center;justify-content: center;
   padding: 10.5px 49.1px;
   font-weight: bold;
   font-size: 14px;
   line-height: 20px;
+
+  &:hover{
+    color: #000000;
+    background-image: none;
+    background-color: #fff;
+  }
 }
 
 ul {
@@ -61,12 +72,29 @@ button {
     max-width: 1100px;
   }
 
-  @include tablet {
-    padding: 0 30px;
+  @media(max-width: 910px) {
+    padding: 0 46px;
   }
 
-  @include mobile {
-    padding: 0 20px;
+
+}
+
+.hide{
+  display: inline-block;
+  @media(max-width: 910px) {
+    display: none !important;
   }
 }
 
+.show{
+  display: none !important;
+  @media(max-width: 910px) {
+    display: flex !important;
+  }
+}
+.burger{
+  display: none !important;
+  @media(max-width: 910px) {
+    display: flex !important;
+  }
+}

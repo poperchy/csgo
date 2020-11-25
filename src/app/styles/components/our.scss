@@ -1,8 +1,18 @@
 .our {
+  overflow: hidden;
   padding-top: 88px;
   background: linear-gradient(180deg, #111E31 0%, #061020 100%), #061020;
   &__wrap {
     min-height: 490px;
+    @media(max-width: 910px) {
+      min-height: auto;
+      padding-bottom: 20px;
+    }
+    .payment__title-wrap{
+      @media(max-width: 910px) {
+        margin-bottom: 0;
+      }
+    }
 
     h3 {
       font-family: russo, sans-serif;
@@ -10,6 +20,11 @@
       font-size: 30px;
       line-height: 36px;
       margin-bottom: 10px;
+      @media(max-width: 910px) {
+        font-size: 20px;
+        line-height: 24px;
+      }
+
     }
 
     p {
@@ -17,6 +32,11 @@
       font-size: 18px;
       line-height: 25px;
       color: #C9AFD6;
+      @media(max-width: 910px) {
+        font-size: 14px;
+        line-height: 19px;
+      }
+
     }
   }
 
@@ -24,6 +44,12 @@
     display: grid;
     grid-template-columns: repeat(4, 180px);
     justify-content: space-between;
+
+    @media(max-width: 910px) {
+      grid-template-columns: repeat(2, 115px);
+      justify-content: center;
+      gap: 50px 70px;
+    }
 
     span {
       font-family: russo, sans-serif;
@@ -37,6 +63,12 @@
       display: flex;
       align-items: center;
       white-space: nowrap;
+
+      @media(max-width: 910px) {
+        margin-bottom: 20px;
+        font-size: 20px;
+        line-height: 24px;
+      }
     }
 
     p {
@@ -46,6 +78,12 @@
       color: #FFFFFF;
       margin-bottom: 11px;
       width: 159px;
+      @media(max-width: 910px) {
+        font-size: 12px;
+        line-height: 16px;
+        width: 120px;
+      }
+
     }
   }
 
@@ -76,3 +114,4 @@
   width: 100%;
   margin-bottom: -4px;
 }
+

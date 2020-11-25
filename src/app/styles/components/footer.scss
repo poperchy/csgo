@@ -1,0 +1,113 @@
+.footer {
+  background: #061020;
+
+  &__desc {
+    border: 3px solid #01DFCC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+
+    @media(max-width: 910px) {
+      padding: 34px 0;
+    }
+
+    h3 {
+      font-family: russo, sans-serif;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 36px;
+      margin-bottom: 35px;
+
+      @media(max-width: 910px) {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 30px;
+      }
+    }
+
+    p {
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 25px;
+      color: #C9AFD6;
+      margin-bottom: 37px;
+
+      @media(max-width: 910px) {
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 30px;
+      }
+    }
+
+    a {
+      font-family: russo, sans-serif;
+      display: inline-block;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 36px;
+      color: #01DFCC;
+
+      @media(max-width: 910px) {
+        font-size: 20px;
+        line-height: 24px;
+      }
+    }
+  }
+
+  &__social {
+
+    ul {
+      display: flex;
+      gap: 15px;
+
+    }
+
+    h3 {
+      font-size: 30px;
+      line-height: 36px;
+      margin-bottom: 15px;
+
+      @media(max-width: 910px) {
+        font-size: 20px;
+        line-height: 24px;
+      }
+    }
+  }
+
+  &__wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    height: 130px;
+    @media(max-width: 910px) {
+      grid-template-columns: repeat(1, 100%);
+      height: 136px;
+    }
+
+    .footer__social, .footer__copyright, .un {
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      justify-content: center;
+
+      @media(max-width: 910px) {
+        align-items: center;
+        justify-content: center;
+        padding-top: 16px;
+      }
+    }
+  }
+  &__copyright{
+    margin: 0 auto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FEFEFE;
+
+    @media(max-width: 910px) {
+      font-size: 10px;
+      line-height: 14px;
+    }
+  }
+}

@@ -1,7 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6756529-6e09-476f-8a00-72bbaeb96724" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/js/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/banner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/connect.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/connect.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/need.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/need.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/our.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/our.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/payment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/payment.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/works.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/works.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/layout/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/layout/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/home.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/home.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/layout/base.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/layout/base.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/layout/footer.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/layout/footer.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/layout/header.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/layout/header.twig" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1klwEOs4QHuIflPb55KnO0Q8wmr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../react/battle" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MY JOB\csgo\csgo\src\app\styles\libraries" />
+      <recent name="D:\MY JOB\csgo\csgo\src\app\styles" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MY JOB\csgo\csgo\src\app\js\libs" />
+      <recent name="D:\MY JOB\csgo\csgo\src\app\styles\libraries" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6756529-6e09-476f-8a00-72bbaeb96724" name="Default Changelist" comment="" />
+      <created>1606288374014</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606288374014</updated>
+      <workItem from="1606288375052" duration="32149000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1606328764557">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/-1280.54.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1606328764557" />
+    <state x="661" y="260" width="597" height="520" key="find.popup" timestamp="1606311620291">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="260" width="597" height="520" key="find.popup/-1280.54.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1606311620291" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1606296465966">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/-1280.54.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1606296465966" />
   </component>
 </project>

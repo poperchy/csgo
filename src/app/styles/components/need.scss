@@ -15,6 +15,10 @@
     padding-right: 50px;
     padding-bottom: 37px;
     padding-left: 50px;
+
+    @media(max-width: 910px) {
+     gap: 50px 100px;
+    }
   }
   .payment__item{
     img{
@@ -41,6 +45,10 @@
   top: -8px;
   left: 50%;
   transform: translateX(-50%);
+  @media(max-width: 910px) {
+    width: 77%;
+    height: 2px;
+  }
 }
 .bl{
   left: 20px;
@@ -51,6 +59,12 @@
   bottom: 50px;
   left: 50%;
   transform: translateX(-50%);
+  @media(max-width: 910px) {
+    width: 77%;
+    height: 2px;
+    bottom: -10px;
+  }
+
 }
 .br{
   right: 20px;
@@ -69,9 +83,67 @@
 .bbl{
   bottom: 50px;
   left: 20px;
+  @media(max-width: 910px) {
+    bottom: -10px;
+  }
 }
 
 .bbr{
   bottom: 50px;
   right: 20px;
+  @media(max-width: 910px) {
+    bottom: -10px;
+  }
 }
+
+
+
+
+
+
+
+
+.btm{
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.blm{
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.bbm{
+  left: 50%;
+  transform: translateX(-50%);
+    bottom: -10px;
+
+
+}
+.brm{
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.brtm{
+  top: -8px;
+  right: 5px;
+}
+
+.bltm{
+  top: -8px;
+  left: 20px;
+}
+.bblm{
+  left: 20px;
+    bottom: -10px;
+}
+
+.bbrm{
+  right: 5px;
+    bottom: -10px;
+}
+
+
+
+
