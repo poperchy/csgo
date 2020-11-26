@@ -2,25 +2,131 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6756529-6e09-476f-8a00-72bbaeb96724" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-ExtraBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/opensans/OpenSans-SemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/russo/RussoOne-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/100.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/25.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/50.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/75.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/Rectangle 39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/Vector.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/a1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/a2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/a3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/a4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/a5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/ak.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/arrow-slide.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/arrow-slidebg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/author.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bannerbg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bannermb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bannermb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bannermb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bbl.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bblm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bbm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bbr.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bbrm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bbtm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bg2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bghero.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bgpurple.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bgpurple.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bgpurple2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bl.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/blm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/blt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bltm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/boomich.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/border.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/br.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/brm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/brt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/brtm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/btm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/btnbg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coin-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coin-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coin-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coin-13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coin-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coin-15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coin-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coin-17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coin-18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coin-19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coin-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coin-20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coin-21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coin-22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coin-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coin-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coin-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coin-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coin-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coin-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coin-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coins.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coinsa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coinss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coinss.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coinsz10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coinsz10.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coinsz20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/coinsz20.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/connectbg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/f.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/frame.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/glock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/guns.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/honeycomb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/i.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icon1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icon2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icon3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/icon4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/indicator.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/lines.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/man.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/need1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/need2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/need3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/need4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/paymentmb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/payments.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/sliderbg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/t.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/w-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles/options.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/images/payments.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/payments.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/js/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/banner.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/connect.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/connect.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/need.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/need.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/our.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/our.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/payment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/payment.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/works.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/works.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/layout/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/layout/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/views/home.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/home.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/views/layout/base.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/layout/base.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/views/layout/footer.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/layout/footer.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/layout/header.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/layout/header.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,24 +144,29 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../react/battle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/images" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\csgo\src\app\images" />
+      <recent name="D:\MY JOB\csgo\csgo\src\app\js\libs" />
+      <recent name="D:\MY JOB\csgo\csgo\src\app\styles\libraries" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\MY JOB\csgo\csgo\src\app\styles\libraries" />
       <recent name="D:\MY JOB\csgo\csgo\src\app\styles" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MY JOB\csgo\csgo\src\app\js\libs" />
-      <recent name="D:\MY JOB\csgo\csgo\src\app\styles\libraries" />
-    </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c6756529-6e09-476f-8a00-72bbaeb96724" name="Default Changelist" comment="" />
@@ -64,11 +175,12 @@
       <option name="presentableId" value="Default" />
       <updated>1606288374014</updated>
       <workItem from="1606288375052" duration="32149000" />
+      <workItem from="1606372279798" duration="2516000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1606328764557">

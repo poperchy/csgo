@@ -132,4 +132,10 @@ $('a[href^="#"]').on('click', function() {
 
 
 
-AOS.init();
+$(function() {
+    $('.gotop').click(function() {
+        $("html, body").animate({
+            scrollTop:0
+        },1000);
+    })
+})

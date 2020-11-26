@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
+
 {% block header %}
     {% include '../layout/header.twig' %}
 {% endblock %}
@@ -18,6 +19,12 @@
     {% include '../layout/footer.twig' %}
 {% endblock %}
 {% block scripts %}
+    <button class="gotop">
+        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16.4984 39.0235L30 26.4084L25.4995 22.2032L11.9979 34.8183L16.4984 39.0235ZM47.9999 0H12.0001C5.37246 0 0 5.37285 0 12V48C0 54.6271 5.37246 60 12.0001 60H47.9999C54.6275 60 60 54.6276 60 48V12C60 5.37285 54.6275 0 47.9999 0V0ZM54.0002 44.9997C54.0002 49.97 49.9708 53.9998 45 53.9998H15C10.0296 53.9998 6.00026 49.97 6.00026 44.9997V14.9999C6.00026 10.0295 10.0296 5.99978 15 5.99978H45C49.9704 5.99978 54.0002 10.0295 54.0002 14.9999V44.9997ZM25.4995 22.2032L43.5016 39.0235L48.0021 34.8183L30 17.9985L25.4995 22.2032Z" fill="white"/>
+        </svg>
+    </button>
+
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="/js/libs/gsap.min.js"></script>
     <script src="/js/libs/swiper-bundle.min.js"></script>
@@ -26,7 +33,7 @@
 
     <script src="/js/libs/jquery.spincrement.min.js"></script>
     <script src="/js/libs/aos.js"></script>
+    <script>AOS.init();</script>
 {% endblock %}
-
 </body>
 </html>

@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  position: relative;
   padding: 0;
   font-family: "openSans", sans-serif;
   color: #ffffff;
@@ -7,7 +8,18 @@ body {
   background: radial-gradient(101.21% 101.21% at 83.05% 101.21%, #061020 0%, #0E1B31 100%), #061020;
   overflow-x: hidden;
 }
-
+.gotop{
+  position: sticky;
+  right: 0;
+  bottom: 39px;
+  right: 0;
+  left: 94%;
+  width: 40px;
+  height: 40px;
+  z-index: 100001;
+  background: transparent;
+  outline: transparent;
+}
 h1 {
   font-size: 30px;
 }
